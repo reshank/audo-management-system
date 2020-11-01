@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-sarif;
+}
+body{
+margin: 0;
+padding:0;
+font-weight:century gothic;
+background-color:rosybrown;
+background-size: cover;
+background-position:center;
+}
+.center{
+    text-align: center;
+    font-size: 150%;
+    color:red;
+    margin:10px;
+
+}
+.center1{
+    text-align: center;
+    font-size: 150%;
+    color:black;
+    margin-top: 25px;
+}
+.regform{
+    position: absolute;
+    background-image:url("ccc.jpg");
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:350px;
+
+}
+.regform h1{
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin:30px 0;
+    
+
+}
+.regform p{
+    color:black;
+    font-size: 20px;
+    margin:10px 0 ;
+
+}
+.regform input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border:0;
+    border-radius: 5px;
+    outline: none;
+    
+
+}
+.regform button{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border:0;
+    border-radius: 5px;
+
+}
+.sign-up{
+    width: 300px;
+    margin:8% auto 0;
+    padding: 20px;
+    background:#fff;
+    box-shadow:0 0 3px 0 rgba(0,0,0,0.3);
+
+}
+.sign-up h1{
+   color: #1c8adb;
+   margin-bottom: 30px;
+
+}
+.sign-up p{
+  text-align: center;
+  margin: 5px; 
+ 
+ }
+ .sign-up form{
+    text-align: center;
+    margin: 5px; 
+   
+   }
+   .input-box{
+       border-radius: 20px;
+       padding:10px;
+       margin:10px 0;
+       width:100%;
+       border:1px solid #999;
+       outline:none;
+
+   }
+   
+.hero{
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(audotorium.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+.nave-bar{
+    display:flex;
+    padding:40px 120px;
+
+}
+.nav-logo img{
+    width:130px;
+}
+.nav-link ul{
+    margin-left:70px;
+    display:inline;
+}
+.nav-link ul li{
+    list-style:none;
+    display:inline-block;
+    padding:8px 30px;
+}
+.nav-link ul a{
+    color:yellow;
+    text-decoration:none;
+    font: size 16px;
+}
+
+.nav-link ul li:hover::after{
+    width:100%;
+ }
+ .btn{
+     padding:10px 20px;
+     border:0;
+     background:blue;
+     font-weight: bold;
+     cursor:pointer;
+ }
+ .nav-link .btn{
+     float:right;
+ }
+ .banner-title{
+     margin:80px 130px;
+     color:#ffff;
+ }
+.banner-title h1{
+    font-size:64px;
+    margin-bottom:30px;
+    
+}
+.banner-title h1 span{
+    color:yellowgreen;
+    
+}
+
+
+
